@@ -1,4 +1,4 @@
-(ns my-app.server
+(ns backend.server
   (:require
    [com.stuartsierra.component :as component]
    [ring.adapter.jetty :as jetty]

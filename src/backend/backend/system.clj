@@ -1,8 +1,8 @@
-(ns my-app.system
+(ns backend.system
   (:require
    [com.stuartsierra.component :as component]
-   [my-app.db :refer [map->Db]]
-   [my-app.server :refer [map->Server]]))
+   [backend.db :refer [map->Db]]
+   [backend.server :refer [map->Server]]))
 
 (defn- using [ctor deps] (fn [m] (component/using (ctor m) deps)))
 

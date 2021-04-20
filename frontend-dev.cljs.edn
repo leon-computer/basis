@@ -1,0 +1,7 @@
+{:main frontend.dev
+ :asset-path "js/out"
+ :output-to "frontend-dev-build/public/js/main.js",
+ :output-dir "frontend-dev-build/public/js/out",
+ :parallel-build true
+ :source-map-timestamp true
+ }

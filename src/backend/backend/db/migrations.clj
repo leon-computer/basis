@@ -1,4 +1,4 @@
-(ns my-app.db.migrations
+(ns backend.db.migrations
   "Minimalist tool for incremental Datomic schema migrations"
   (:require
    [datomic.api :as d]))

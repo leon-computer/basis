@@ -1,4 +1,4 @@
-(ns my-app.db.schema)
+(ns backend.db.schema)
 
 (def migrations
   ["Request count"

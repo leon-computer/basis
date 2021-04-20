@@ -1,4 +1,4 @@
-(ns my-app.main
+(ns backend.main
   (:require
    [clojure.tools.logging.readable :as log])
   (:gen-class))

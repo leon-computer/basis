@@ -1,10 +1,10 @@
-(ns my-app.db
+(ns backend.db
   (:require
    [com.stuartsierra.component :as component]
    [datomic.api :as d]
    [clojure.string :as str]
-   [my-app.db.migrations :refer [install-base-schema migrate]]
-   [my-app.db.schema :refer [migrations]]))
+   [backend.db.migrations :refer [install-base-schema migrate]]
+   [backend.db.schema :refer [migrations]]))
 
 (defn produce-conn
   "Obtains and returns connection, if necessary creates database and

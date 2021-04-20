@@ -1,0 +1,3 @@
+{:watch-dirs ["src/frontend/" "src/dev/frontend" "src/shared"]
+ ;; :ring-stack for-figwheel/wrap-custom
+ :open-url "false"}

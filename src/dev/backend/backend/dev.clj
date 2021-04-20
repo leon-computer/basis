@@ -1,6 +1,6 @@
-(ns dev
+(ns backend.dev
   (:require
-   [my-app.system :refer [configure-system]]
+   [backend.system :refer [configure-system]]
    [leon.computer.repl.reloaded :refer [set-system-to-load! reset system]]
    [datomic.api :as d])
   (:use
